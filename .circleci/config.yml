@@ -24,7 +24,6 @@ workflows:
       - test_regression_model
           filters:
             branches:
-              only:
-               - circl_ci_8_3 # list of branches to build
+              only: circl_ci_8_3
       
 
