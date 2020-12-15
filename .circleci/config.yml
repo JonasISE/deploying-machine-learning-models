@@ -22,8 +22,9 @@ workflows:
   test-all:
     jobs:
       - test_regression_model
-        filters:
-          branches:
-            only: /circl_ci_8_3.*/
-      
+        general:
+          filters:
+            branches:
+              only: /circl_ci_8_3.*/
+
 
